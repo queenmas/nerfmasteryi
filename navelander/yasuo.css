@@ -1,0 +1,69 @@
+html{
+background:url("img/backgroundpc.jpg") no-repeat center fixed;
+background-size:100% 100%;
+}
+
+.left_div {
+	background-color:blue;
+}
+
+.mid_div {
+	background-color:red;
+	}
+	
+.right_div {
+	background-color:green;
+	}
+
+.left_div,.mid_div,.right_div {
+	display:inline-block;
+	width:33.33%;
+	height:100%;
+}
+.contenedor {
+	position: absolute;
+	top: 1.5%;
+	right: 2%;
+	height: 57%;
+	width: 13%;
+}
+.bottomplay {
+	background:url("img/pause.png") no-repeat;
+	position: absolute;
+	top: 3%;
+	right: 18%;
+	height: 27%;
+	width: 57%;
+}
+.bottomretry {
+	background:url("img/retry.png") no-repeat;
+	position: absolute;
+	top: 36%;
+	right: 18%;
+	height: 27%;
+	width: 57%;
+}
+.bottomsettings {
+	background:url("img/pause2.png") no-repeat;
+	position: absolute;
+	bottom: 3%;
+	right: 18%;
+	height: 27%;
+	width: 57%;
+}
+.nave {
+	background:url("img/cohete2.png") no-repeat ;
+	position: absolute;
+	bottom: 45%;
+	left: 45%;
+	height: 26%;
+	width: 12%;
+}
+.panelcontrol {
+	background:url("img/panel.png") no-repeat;
+	position: absolute;
+	top: 0%;
+	left: 0%;
+	height: 38%;
+	width: 21.5%;
+}
